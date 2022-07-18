@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 18:11:34 CST 2022` | - 
+`Mon Jul 18 17:04:20 CST 2022` | `Tue Jul 12 18:11:34 CST 2022`
 
 ## all matcher
 
@@ -22,7 +22,7 @@
 
 > [Class: RSpec::Matchers::BuiltIn::Change](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/Change)
 
-* 先提一下為什麼我們要用 { } 而不是像平常一樣使用 ( )，是因為如果我們想要對物件執行 Ruby 方法的時候，都像這樣 block 的方式
+* **先提一下為什麼我們要用 { } 而不是像平常一樣使用 ( )，是因為如果我們想要對物件執行 Ruby 方法的時候，都像這樣 block 的方式**
 * 後面補上的 by(1) 寫法，就是改變的數值，因為每次都要寫 from...to... 實在是太麻煩了，於是 RSpec 也給我們這樣的黑魔法來使用！
 
 ```ruby
@@ -39,3 +39,7 @@ expect { subject.push(4) }.to change { subject.length }.by(1)
 ```ruby
 expect([1,2,3]).to contain_exactly(1,3,2)
 ```
+
+## start\_with & end\_with matcher
+
+* 且主要的用法是在 `String` `Array` 身上！

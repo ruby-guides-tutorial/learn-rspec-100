@@ -2,10 +2,12 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 21:42:24 CST 2022` | - 
+`Mon Jul 18 17:56:22 CST 2022` | `Tue Jul 12 21:42:24 CST 2022`
 
 
 ## Double method
+
+* double 可以讓我們預期的方法和回傳的值，變成key-value 的組合，然後存放在這個 double 物件中。
 
 ```ruby
 basketball_player = double("Lebron James", dunk: "Ah!!!!", shoot: "Goal!!!!")

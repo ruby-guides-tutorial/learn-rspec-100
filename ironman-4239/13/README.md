@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 16:03:25 CST 2022` | - 
+`Mon Jul 18 16:34:08 CST 2022` | `Tue Jul 12 16:03:25 CST 2022`
 
 ## Subject
 
@@ -34,6 +34,8 @@ let(:pork_burger) { described_class.new("Pork", "Cheedar") }
 ```
 
 ## 我只要寫一行！
+
+> 前面有提到使用 subject 的小小好處，就是可以讓你只要寫一行！
 
 ```ruby
 expect(subject).to eq(5)

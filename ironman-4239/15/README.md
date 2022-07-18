@@ -2,18 +2,18 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 16:33:43 CST 2022` | - 
+`Mon Jul 18 16:53:31 CST 2022` | `Tue Jul 12 16:33:43 CST 2022`
 
 
-## eq Matcher
+## `eq` Matcher
 
 * 單純比較值，不在意型別
 
-## eql Matcher
+## `eql` Matcher
 
 * 比較值以及型別
 
-## equal Matcher & be Matcher
+## `equal` Matcher & `be` Matcher
 
 > 會放在一起講的原因是 equal 等同於 be
 

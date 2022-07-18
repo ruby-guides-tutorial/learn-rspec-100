@@ -2,24 +2,8 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 20:44:22 CST 2022` | - 
+`Mon Jul 18 17:30:44 CST 2022` | `Tue Jul 12 20:44:22 CST 2022`
 
-## have_attibutes matcher
-
-> [Class: RSpec::Matchers::BuiltIn::HaveAttributes](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/HaveAttributes)
-
-## include matcher
-
-> [Class: RSpec::Matchers::BuiltIn::Include](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/Include)
-
-## raise_error matcher
-
-
-> [Class: RSpec::Matchers::BuiltIn::RaiseError](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/RaiseError)
-
-## respond_to matcher
-
-> [Class: RSpec::Matchers::BuiltIn::RespondTo](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/RespondTo)
 
 
 ## satisfy matcher
@@ -31,3 +15,5 @@
 ## compound expection
 
 > [Class: RSpec::Matchers::BuiltIn::Compound](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/Compound)
+
+* 簡單來說就是合成你的 RSpec 語法，要 and && 或是 or || 對比上你的複數 Matcher 才能夠通過～

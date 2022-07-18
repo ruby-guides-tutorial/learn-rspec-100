@@ -2,14 +2,14 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 16:06:20 CST 2022` | - 
+`Mon Jul 18 16:35:44 CST 2022` | `Tue Jul 12 16:06:20 CST 2022`
 
 ## Shared_examples
 
 ```ruby
 RSpec.shared_examples "Object with three elements" do
-
 end
+
 include_exmaples "Object with three elements"
 ```
 
@@ -17,7 +17,7 @@ include_exmaples "Object with three elements"
 
 ```ruby
 RSpec.shared_context "common_burger" do
-
 end
+
 include_context "common_burger"
 ```

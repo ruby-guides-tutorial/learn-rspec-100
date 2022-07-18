@@ -2,11 +2,4 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Tue Jul 12 11:39:01 CST 2022` | - 
-
-
-## 安裝 RSpec
-
-```bash
-gem install rspec
-```
+`Mon Jul 18 14:51:20 CST 2022` | `Tue Jul 12 11:39:01 CST 2022`
