@@ -21,6 +21,7 @@
 * [Day 19 魁儡的 double object](./19/)
 * [Day 20 真真假假的 Instance doubles](./20/)
 * [Day 21 Spies 間諜來襲！](./21/)
+* [Day 22 rspec-rails 介紹！](./22)
 
 
 ## Ref
