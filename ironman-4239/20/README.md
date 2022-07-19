@@ -23,3 +23,10 @@ burger_klass = class_double(Burger)
 ```
 
 * 原來是因為我們還需要一個方法叫做 `as_stubbed_const` 接在這個 double 的後方，讓我們使用這個 double 物件去確實的取代程式碼內的 Burger.make 的這個 Burger。
+
+
+## Ref
+
+* [Unit Test 中的替身：搞不清楚的Dummy 、Stub、Spy、Mock、Fake](./https://medium.com/starbugs/unit-test-%E4%B8%AD%E7%9A%84%E6%9B%BF%E8%BA%AB-%E6%90%9E%E4%B8%8D%E6%B8%85%E6%A5%9A%E7%9A%84dummy-stub-spy-mock-fake-94be192d5c46)
+* [[RSpec] 一次講清 stub / mock / double / spy](https://ruby-china.org/topics/30249)
+* [http://blog.xdite.net/archives](http://blog.xdite.net/archives)
