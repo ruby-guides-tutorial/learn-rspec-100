@@ -2,9 +2,10 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Jul 18 16:03:17 CST 2022` | `Tue Jul 12 15:38:22 CST 2022`
+`Wed Sep  7 22:44:48 CST 2022` | `Mon Jul 18 16:03:17 CST 2022`
 
 ## Context Method
 
 * 但大多數的人喜歡使用 context 在 describe 內，因為看起來才有區別的感覺
+*  **使其易讀，且當你使用 context 時，請用 when with without 來做開頭！**
 * 整個 context 方法最重要的就是組織程式碼，使其易讀，且當你使用 context 時，請用 when with without 來做開頭！

@@ -2,11 +2,11 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Jul 18 16:34:08 CST 2022` | `Tue Jul 12 16:03:25 CST 2022`
+`Wed Sep  7 23:02:09 CST 2022` | `Wed Sep  7 23:01:48 CST 2022`
 
 ## Subject
 
-* 如果你的最上層 RSpec.describe 後方接的是類別，那 subject 就會依照這個類別的預設值去做 new 的動作
+* **如果你的最上層 RSpec.describe 後方接的是類別，那 subject 就會依照這個類別的預設值去做 new 的動作**
 * 加上他和 let 一樣，在每一個 example 中都是獨立的，不會有污染物件的情形，可以放心的服用！
 
 ## 加入初始值的 Subject
