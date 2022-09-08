@@ -2,13 +2,13 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Jul 18 17:00:39 CST 2022` | `Tue Jul 12 17:33:04 CST 2022`
+`Thu Sep  8 10:41:06 CST 2022` | `Mon Jul 18 17:00:39 CST 2022`
 
 * 首先我想先介紹一個超基本的用法 not_to，基本上就是把我們常用的 to 替代掉而已
 
 ## Comparison matchers
 
-> [Class: RSpec::Matchers::BuiltIn::BeComparedTo](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/BeComparedTo)
+> [Class: RSpec::Matchers::BuiltIn::BeComparedTo](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/BeComparedTo)、`be <operator> value`
 
 ```ruby
 it { is_expected.to be > 40 }
@@ -19,7 +19,7 @@ it { is_expected.to be > 40 }
 
 > [Class: RSpec::Matchers::BuiltIn::BePredicate](https://rubydoc.info/gems/rspec-expectations/RSpec/Matchers/BuiltIn/BePredicate)
 
-* predicate method 在 Ruby 的世界中，都泛指回傳 boolean 的方法！
+* predicate method 在 Ruby 的世界中，**都泛指回傳 boolean 的方法！**
 * 而在 Ruby 的慣例中，predicate method 通常都會用 ? 做結尾。
 
 **所有 Ruby 的 predicate method 都可以直接無痛的轉移成 Rspec 的 matcher！**
