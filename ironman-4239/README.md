@@ -22,6 +22,7 @@
 * [Day 20 真真假假的 Instance doubles](./20/)
 * [Day 21 Spies 間諜來襲！](./21/)
 * [Day 22 rspec-rails 介紹！](./22)
+* [Day 23 介紹 FactoryBot Rails 及設定](./23)
 
 
 ## Ref
