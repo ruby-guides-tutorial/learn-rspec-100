@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Wed Sep  7 20:39:44 CST 2022` | `Mon Jul 18 15:33:41 CST 2022`
+`Sun Sep 10 09:27:09 CST 2023` | `Wed Sep  7 20:39:44 CST 2022`
 
 ## 利用 Command line 來創建你的 RSpec 資料夾
 
