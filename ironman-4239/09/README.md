@@ -2,13 +2,15 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Sun Sep 10 09:42:45 CST 2023` | `Wed Sep  7 22:36:48 CST 2022`
+`Mon Sep 11 18:32:59 CST 2023` |
 
 ## Before hooks
 
 * 在每一個 example 前，做這件事情！
 
 ```ruby
+# before(:example)
+
 before do
   @burger = Burger.new('Beef', 'Cheddar')
 end
