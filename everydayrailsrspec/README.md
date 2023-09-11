@@ -1,7 +1,10 @@
 # Everyday Rails Testing with RSpec
 
+> `rev 0.0.1, 2018-02-04T12:00:00+08:00`
+
+* [第 1 章 导言](./01)
 
 ## Ref
 
-* [https://leanpub.com/everydayrailsrspec](https://leanpub.com/everydayrailsrspec)
-* [https://github.com/everydayrails/everydayrails-rspec-2017](https://github.com/everydayrails/everydayrails-rspec-2017)
+* <https://leanpub.com/everydayrailsrspec>
+* <https://github.com/everydayrails/everydayrails-rspec-2017>
