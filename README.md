@@ -25,5 +25,6 @@ it { is_expected.to eq(5) }
 ## Ref
 
 * [https://rspec.info/](https://rspec.info/)
+* <https://rspec.ruby-lang.org.cn/>
 * [Publisher: RSpec - Relish](https://relishapp.com/rspec/)
 * [Better Specs](https://www.betterspecs.org/)
